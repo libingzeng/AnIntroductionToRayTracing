@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D09D3D521086BE6000D5E29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D09D3D421086BE6000D5E29 /* main.cpp */; };
+		7DEDA06A21086CB400D38D09 /* test_extend1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA01C21086CAB00D38D09 /* test_extend1.cpp */; };
+		7DEDA06B21086CB400D38D09 /* TreeType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA01E21086CAB00D38D09 /* TreeType.cpp */; };
+		7DEDA06C21086CB400D38D09 /* quadratic_cylinder_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA01F21086CAB00D38D09 /* quadratic_cylinder_all.cpp */; };
+		7DEDA06D21086CB400D38D09 /* superellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02021086CAB00D38D09 /* superellipsoid.cpp */; };
+		7DEDA06E21086CB400D38D09 /* quartic_blend_cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02121086CAB00D38D09 /* quartic_blend_cylinder.cpp */; };
+		7DEDA06F21086CB400D38D09 /* quadratic_paraboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02321086CAB00D38D09 /* quadratic_paraboloid.cpp */; };
+		7DEDA07021086CB400D38D09 /* superhyperboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02721086CAC00D38D09 /* superhyperboloid.cpp */; };
+		7DEDA07121086CB400D38D09 /* superquadratic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02821086CAC00D38D09 /* superquadratic.cpp */; };
+		7DEDA07221086CB400D38D09 /* lambertian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02A21086CAC00D38D09 /* lambertian.cpp */; };
+		7DEDA07321086CB400D38D09 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02C21086CAC00D38D09 /* vec3.cpp */; };
+		7DEDA07421086CB400D38D09 /* sweeping_translational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02E21086CAD00D38D09 /* sweeping_translational.cpp */; };
+		7DEDA07521086CB400D38D09 /* elliptic_plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA02F21086CAD00D38D09 /* elliptic_plane.cpp */; };
+		7DEDA07621086CB400D38D09 /* metal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03021086CAD00D38D09 /* metal.cpp */; };
+		7DEDA07721086CB400D38D09 /* quadratic_hyperbolic_paraboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03321086CAE00D38D09 /* quadratic_hyperbolic_paraboloid.cpp */; };
+		7DEDA07821086CB400D38D09 /* test1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03521086CAE00D38D09 /* test1.cpp */; };
+		7DEDA07921086CB400D38D09 /* ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03721086CAE00D38D09 /* ray.cpp */; };
+		7DEDA07A21086CB400D38D09 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03921086CAE00D38D09 /* camera.cpp */; };
+		7DEDA07B21086CB400D38D09 /* tori_part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03C21086CAF00D38D09 /* tori_part.cpp */; };
+		7DEDA07C21086CB400D38D09 /* supertoroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03D21086CAF00D38D09 /* supertoroid.cpp */; };
+		7DEDA07D21086CB400D38D09 /* sweeping_rotational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03E21086CAF00D38D09 /* sweeping_rotational.cpp */; };
+		7DEDA07E21086CB400D38D09 /* test_extend2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA03F21086CAF00D38D09 /* test_extend2.cpp */; };
+		7DEDA07F21086CB400D38D09 /* box2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04321086CB000D38D09 /* box2.cpp */; };
+		7DEDA08021086CB400D38D09 /* test_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04421086CB000D38D09 /* test_base.cpp */; };
+		7DEDA08121086CB400D38D09 /* rain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04821086CB000D38D09 /* rain.cpp */; };
+		7DEDA08221086CB400D38D09 /* parametric_surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04A21086CB000D38D09 /* parametric_surface.cpp */; };
+		7DEDA08321086CB400D38D09 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04B21086CB100D38D09 /* polygon.cpp */; };
+		7DEDA08421086CB400D38D09 /* hitable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04D21086CB100D38D09 /* hitable.cpp */; };
+		7DEDA08521086CB400D38D09 /* blobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA04E21086CB100D38D09 /* blobs.cpp */; };
+		7DEDA08621086CB400D38D09 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05121086CB100D38D09 /* material.cpp */; };
+		7DEDA08721086CB400D38D09 /* tori.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05221086CB100D38D09 /* tori.cpp */; };
+		7DEDA08821086CB400D38D09 /* hitable_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05421086CB200D38D09 /* hitable_list.cpp */; };
+		7DEDA08921086CB400D38D09 /* csgTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05621086CB200D38D09 /* csgTree.cpp */; };
+		7DEDA08A21086CB400D38D09 /* dielectric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05721086CB200D38D09 /* dielectric.cpp */; };
+		7DEDA08B21086CB400D38D09 /* quadratic_ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05A21086CB200D38D09 /* quadratic_ellipsoid.cpp */; };
+		7DEDA08C21086CB400D38D09 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05C21086CB300D38D09 /* sphere.cpp */; };
+		7DEDA08D21086CB400D38D09 /* sweeping_sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA05E21086CB300D38D09 /* sweeping_sphere.cpp */; };
+		7DEDA08E21086CB400D38D09 /* tori_part_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA06021086CB300D38D09 /* tori_part_all.cpp */; };
+		7DEDA08F21086CB400D38D09 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA06121086CB300D38D09 /* box.cpp */; };
+		7DEDA09021086CB400D38D09 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA06321086CB400D38D09 /* triangle.cpp */; };
+		7DEDA09121086CB400D38D09 /* quadratic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA06421086CB400D38D09 /* quadratic.cpp */; };
+		7DEDA09221086CB400D38D09 /* vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDA06521086CB400D38D09 /* vec2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D09D3CF21086BE6000D5E29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D09D3D121086BE6000D5E29 /* AnIntroductionToRayTracing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnIntroductionToRayTracing; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09D3D421086BE6000D5E29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7DEDA01721086CAA00D38D09 /* tori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tori.h; sourceTree = "<group>"; };
+		7DEDA01821086CAB00D38D09 /* hitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hitable.h; sourceTree = "<group>"; };
+		7DEDA01921086CAB00D38D09 /* box2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box2.h; sourceTree = "<group>"; };
+		7DEDA01A21086CAB00D38D09 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		7DEDA01B21086CAB00D38D09 /* sweeping_sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweeping_sphere.h; sourceTree = "<group>"; };
+		7DEDA01C21086CAB00D38D09 /* test_extend1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_extend1.cpp; sourceTree = "<group>"; };
+		7DEDA01D21086CAB00D38D09 /* quadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratic.h; sourceTree = "<group>"; };
+		7DEDA01E21086CAB00D38D09 /* TreeType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeType.cpp; sourceTree = "<group>"; };
+		7DEDA01F21086CAB00D38D09 /* quadratic_cylinder_all.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadratic_cylinder_all.cpp; sourceTree = "<group>"; };
+		7DEDA02021086CAB00D38D09 /* superellipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = superellipsoid.cpp; sourceTree = "<group>"; };
+		7DEDA02121086CAB00D38D09 /* quartic_blend_cylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quartic_blend_cylinder.cpp; sourceTree = "<group>"; };
+		7DEDA02221086CAB00D38D09 /* vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+		7DEDA02321086CAB00D38D09 /* quadratic_paraboloid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadratic_paraboloid.cpp; sourceTree = "<group>"; };
+		7DEDA02421086CAB00D38D09 /* superhyperboloid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = superhyperboloid.h; sourceTree = "<group>"; };
+		7DEDA02521086CAC00D38D09 /* tori_part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tori_part.h; sourceTree = "<group>"; };
+		7DEDA02621086CAC00D38D09 /* superellipsoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = superellipsoid.h; sourceTree = "<group>"; };
+		7DEDA02721086CAC00D38D09 /* superhyperboloid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = superhyperboloid.cpp; sourceTree = "<group>"; };
+		7DEDA02821086CAC00D38D09 /* superquadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = superquadratic.cpp; sourceTree = "<group>"; };
+		7DEDA02921086CAC00D38D09 /* sweeping_translational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweeping_translational.h; sourceTree = "<group>"; };
+		7DEDA02A21086CAC00D38D09 /* lambertian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lambertian.cpp; sourceTree = "<group>"; };
+		7DEDA02B21086CAC00D38D09 /* test_extend1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_extend1.h; sourceTree = "<group>"; };
+		7DEDA02C21086CAC00D38D09 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		7DEDA02D21086CAD00D38D09 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		7DEDA02E21086CAD00D38D09 /* sweeping_translational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sweeping_translational.cpp; sourceTree = "<group>"; };
+		7DEDA02F21086CAD00D38D09 /* elliptic_plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = elliptic_plane.cpp; sourceTree = "<group>"; };
+		7DEDA03021086CAD00D38D09 /* metal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metal.cpp; sourceTree = "<group>"; };
+		7DEDA03121086CAD00D38D09 /* hitable_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hitable_list.h; sourceTree = "<group>"; };
+		7DEDA03221086CAD00D38D09 /* polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygon.h; sourceTree = "<group>"; };
+		7DEDA03321086CAE00D38D09 /* quadratic_hyperbolic_paraboloid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadratic_hyperbolic_paraboloid.cpp; sourceTree = "<group>"; };
+		7DEDA03421086CAE00D38D09 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		7DEDA03521086CAE00D38D09 /* test1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
+		7DEDA03621086CAE00D38D09 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		7DEDA03721086CAE00D38D09 /* ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray.cpp; sourceTree = "<group>"; };
+		7DEDA03821086CAE00D38D09 /* quadratic_hyperbolic_paraboloid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratic_hyperbolic_paraboloid.h; sourceTree = "<group>"; };
+		7DEDA03921086CAE00D38D09 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		7DEDA03A21086CAE00D38D09 /* sweeping_rotational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweeping_rotational.h; sourceTree = "<group>"; };
+		7DEDA03B21086CAE00D38D09 /* quadratic_ellipsoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratic_ellipsoid.h; sourceTree = "<group>"; };
+		7DEDA03C21086CAF00D38D09 /* tori_part.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tori_part.cpp; sourceTree = "<group>"; };
+		7DEDA03D21086CAF00D38D09 /* supertoroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = supertoroid.cpp; sourceTree = "<group>"; };
+		7DEDA03E21086CAF00D38D09 /* sweeping_rotational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sweeping_rotational.cpp; sourceTree = "<group>"; };
+		7DEDA03F21086CAF00D38D09 /* test_extend2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_extend2.cpp; sourceTree = "<group>"; };
+		7DEDA04021086CAF00D38D09 /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		7DEDA04121086CAF00D38D09 /* parametric_surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parametric_surface.h; sourceTree = "<group>"; };
+		7DEDA04221086CAF00D38D09 /* tori_part_all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tori_part_all.h; sourceTree = "<group>"; };
+		7DEDA04321086CB000D38D09 /* box2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box2.cpp; sourceTree = "<group>"; };
+		7DEDA04421086CB000D38D09 /* test_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_base.cpp; sourceTree = "<group>"; };
+		7DEDA04521086CB000D38D09 /* test_extend2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_extend2.h; sourceTree = "<group>"; };
+		7DEDA04621086CB000D38D09 /* quadratic_cylinder_all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratic_cylinder_all.h; sourceTree = "<group>"; };
+		7DEDA04721086CB000D38D09 /* quadratic_paraboloid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratic_paraboloid.h; sourceTree = "<group>"; };
+		7DEDA04821086CB000D38D09 /* rain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rain.cpp; sourceTree = "<group>"; };
+		7DEDA04921086CB000D38D09 /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
+		7DEDA04A21086CB000D38D09 /* parametric_surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parametric_surface.cpp; sourceTree = "<group>"; };
+		7DEDA04B21086CB100D38D09 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon.cpp; sourceTree = "<group>"; };
+		7DEDA04C21086CB100D38D09 /* metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metal.h; sourceTree = "<group>"; };
+		7DEDA04D21086CB100D38D09 /* hitable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hitable.cpp; sourceTree = "<group>"; };
+		7DEDA04E21086CB100D38D09 /* blobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobs.cpp; sourceTree = "<group>"; };
+		7DEDA04F21086CB100D38D09 /* elliptic_plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elliptic_plane.h; sourceTree = "<group>"; };
+		7DEDA05021086CB100D38D09 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		7DEDA05121086CB100D38D09 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		7DEDA05221086CB100D38D09 /* tori.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tori.cpp; sourceTree = "<group>"; };
+		7DEDA05321086CB200D38D09 /* blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobs.h; sourceTree = "<group>"; };
+		7DEDA05421086CB200D38D09 /* hitable_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hitable_list.cpp; sourceTree = "<group>"; };
+		7DEDA05521086CB200D38D09 /* csgTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csgTree.h; sourceTree = "<group>"; };
+		7DEDA05621086CB200D38D09 /* csgTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = csgTree.cpp; sourceTree = "<group>"; };
+		7DEDA05721086CB200D38D09 /* dielectric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dielectric.cpp; sourceTree = "<group>"; };
+		7DEDA05821086CB200D38D09 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		7DEDA05921086CB200D38D09 /* quartic_blend_cylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quartic_blend_cylinder.h; sourceTree = "<group>"; };
+		7DEDA05A21086CB200D38D09 /* quadratic_ellipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadratic_ellipsoid.cpp; sourceTree = "<group>"; };
+		7DEDA05B21086CB300D38D09 /* rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rain.h; sourceTree = "<group>"; };
+		7DEDA05C21086CB300D38D09 /* sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sphere.cpp; sourceTree = "<group>"; };
+		7DEDA05D21086CB300D38D09 /* supertoroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = supertoroid.h; sourceTree = "<group>"; };
+		7DEDA05E21086CB300D38D09 /* sweeping_sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sweeping_sphere.cpp; sourceTree = "<group>"; };
+		7DEDA05F21086CB300D38D09 /* test_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_base.h; sourceTree = "<group>"; };
+		7DEDA06021086CB300D38D09 /* tori_part_all.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tori_part_all.cpp; sourceTree = "<group>"; };
+		7DEDA06121086CB300D38D09 /* box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cpp; sourceTree = "<group>"; };
+		7DEDA06221086CB300D38D09 /* TreeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeType.h; sourceTree = "<group>"; };
+		7DEDA06321086CB400D38D09 /* triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
+		7DEDA06421086CB400D38D09 /* quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadratic.cpp; sourceTree = "<group>"; };
+		7DEDA06521086CB400D38D09 /* vec2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec2.cpp; sourceTree = "<group>"; };
+		7DEDA06621086CB400D38D09 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		7DEDA06721086CB400D38D09 /* superquadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = superquadratic.h; sourceTree = "<group>"; };
+		7DEDA06821086CB400D38D09 /* dielectric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dielectric.h; sourceTree = "<group>"; };
+		7DEDA06921086CB400D38D09 /* lambertian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lambertian.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D09D3CE21086BE6000D5E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D09D3C821086BE6000D5E29 = {
+			isa = PBXGroup;
+			children = (
+				7D09D3D421086BE6000D5E29 /* main.cpp */,
+				7DEDA09421086EA500D38D09 /* src */,
+				7DEDA09321086E8000D38D09 /* header */,
+				7D09D3D221086BE6000D5E29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D09D3D221086BE6000D5E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D09D3D121086BE6000D5E29 /* AnIntroductionToRayTracing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEDA09321086E8000D38D09 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDA05321086CB200D38D09 /* blobs.h */,
+				7DEDA02D21086CAD00D38D09 /* box.h */,
+				7DEDA01921086CAB00D38D09 /* box2.h */,
+				7DEDA01A21086CAB00D38D09 /* camera.h */,
+				7DEDA05521086CB200D38D09 /* csgTree.h */,
+				7DEDA06821086CB400D38D09 /* dielectric.h */,
+				7DEDA04F21086CB100D38D09 /* elliptic_plane.h */,
+				7DEDA03121086CAD00D38D09 /* hitable_list.h */,
+				7DEDA01821086CAB00D38D09 /* hitable.h */,
+				7DEDA06921086CB400D38D09 /* lambertian.h */,
+				7DEDA05021086CB100D38D09 /* log.h */,
+				7DEDA05821086CB200D38D09 /* material.h */,
+				7DEDA04C21086CB100D38D09 /* metal.h */,
+				7DEDA04121086CAF00D38D09 /* parametric_surface.h */,
+				7DEDA03221086CAD00D38D09 /* polygon.h */,
+				7DEDA04621086CB000D38D09 /* quadratic_cylinder_all.h */,
+				7DEDA03B21086CAE00D38D09 /* quadratic_ellipsoid.h */,
+				7DEDA03821086CAE00D38D09 /* quadratic_hyperbolic_paraboloid.h */,
+				7DEDA04721086CB000D38D09 /* quadratic_paraboloid.h */,
+				7DEDA01D21086CAB00D38D09 /* quadratic.h */,
+				7DEDA05921086CB200D38D09 /* quartic_blend_cylinder.h */,
+				7DEDA05B21086CB300D38D09 /* rain.h */,
+				7DEDA06621086CB400D38D09 /* ray.h */,
+				7DEDA03421086CAE00D38D09 /* sphere.h */,
+				7DEDA02621086CAC00D38D09 /* superellipsoid.h */,
+				7DEDA02421086CAB00D38D09 /* superhyperboloid.h */,
+				7DEDA06721086CB400D38D09 /* superquadratic.h */,
+				7DEDA05D21086CB300D38D09 /* supertoroid.h */,
+				7DEDA03A21086CAE00D38D09 /* sweeping_rotational.h */,
+				7DEDA01B21086CAB00D38D09 /* sweeping_sphere.h */,
+				7DEDA02921086CAC00D38D09 /* sweeping_translational.h */,
+				7DEDA05F21086CB300D38D09 /* test_base.h */,
+				7DEDA02B21086CAC00D38D09 /* test_extend1.h */,
+				7DEDA04521086CB000D38D09 /* test_extend2.h */,
+				7DEDA04021086CAF00D38D09 /* test1.h */,
+				7DEDA04221086CAF00D38D09 /* tori_part_all.h */,
+				7DEDA02521086CAC00D38D09 /* tori_part.h */,
+				7DEDA01721086CAA00D38D09 /* tori.h */,
+				7DEDA06221086CB300D38D09 /* TreeType.h */,
+				7DEDA04921086CB000D38D09 /* triangle.h */,
+				7DEDA02221086CAB00D38D09 /* vec2.h */,
+				7DEDA03621086CAE00D38D09 /* vec3.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		7DEDA09421086EA500D38D09 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDA04E21086CB100D38D09 /* blobs.cpp */,
+				7DEDA06121086CB300D38D09 /* box.cpp */,
+				7DEDA04321086CB000D38D09 /* box2.cpp */,
+				7DEDA03921086CAE00D38D09 /* camera.cpp */,
+				7DEDA05621086CB200D38D09 /* csgTree.cpp */,
+				7DEDA05721086CB200D38D09 /* dielectric.cpp */,
+				7DEDA02F21086CAD00D38D09 /* elliptic_plane.cpp */,
+				7DEDA05421086CB200D38D09 /* hitable_list.cpp */,
+				7DEDA04D21086CB100D38D09 /* hitable.cpp */,
+				7DEDA02A21086CAC00D38D09 /* lambertian.cpp */,
+				7DEDA04B21086CB100D38D09 /* polygon.cpp */,
+				7DEDA01F21086CAB00D38D09 /* quadratic_cylinder_all.cpp */,
+				7DEDA05A21086CB200D38D09 /* quadratic_ellipsoid.cpp */,
+				7DEDA03321086CAE00D38D09 /* quadratic_hyperbolic_paraboloid.cpp */,
+				7DEDA02321086CAB00D38D09 /* quadratic_paraboloid.cpp */,
+				7DEDA06421086CB400D38D09 /* quadratic.cpp */,
+				7DEDA02121086CAB00D38D09 /* quartic_blend_cylinder.cpp */,
+				7DEDA04821086CB000D38D09 /* rain.cpp */,
+				7DEDA03721086CAE00D38D09 /* ray.cpp */,
+				7DEDA05C21086CB300D38D09 /* sphere.cpp */,
+				7DEDA02021086CAB00D38D09 /* superellipsoid.cpp */,
+				7DEDA02721086CAC00D38D09 /* superhyperboloid.cpp */,
+				7DEDA02821086CAC00D38D09 /* superquadratic.cpp */,
+				7DEDA03D21086CAF00D38D09 /* supertoroid.cpp */,
+				7DEDA03E21086CAF00D38D09 /* sweeping_rotational.cpp */,
+				7DEDA05E21086CB300D38D09 /* sweeping_sphere.cpp */,
+				7DEDA02E21086CAD00D38D09 /* sweeping_translational.cpp */,
+				7DEDA04421086CB000D38D09 /* test_base.cpp */,
+				7DEDA01C21086CAB00D38D09 /* test_extend1.cpp */,
+				7DEDA03F21086CAF00D38D09 /* test_extend2.cpp */,
+				7DEDA03521086CAE00D38D09 /* test1.cpp */,
+				7DEDA06021086CB300D38D09 /* tori_part_all.cpp */,
+				7DEDA03C21086CAF00D38D09 /* tori_part.cpp */,
+				7DEDA05221086CB100D38D09 /* tori.cpp */,
+				7DEDA01E21086CAB00D38D09 /* TreeType.cpp */,
+				7DEDA06321086CB400D38D09 /* triangle.cpp */,
+				7DEDA06521086CB400D38D09 /* vec2.cpp */,
+				7DEDA02C21086CAC00D38D09 /* vec3.cpp */,
+				7DEDA05121086CB100D38D09 /* material.cpp */,
+				7DEDA03021086CAD00D38D09 /* metal.cpp */,
+				7DEDA04A21086CB000D38D09 /* parametric_surface.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D09D3D021086BE6000D5E29 /* AnIntroductionToRayTracing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D09D3D821086BE6000D5E29 /* Build configuration list for PBXNativeTarget "AnIntroductionToRayTracing" */;
+			buildPhases = (
+				7D09D3CD21086BE6000D5E29 /* Sources */,
+				7D09D3CE21086BE6000D5E29 /* Frameworks */,
+				7D09D3CF21086BE6000D5E29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnIntroductionToRayTracing;
+			productName = AnIntroductionToRayTracing;
+			productReference = 7D09D3D121086BE6000D5E29 /* AnIntroductionToRayTracing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D09D3C921086BE6000D5E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = libingzeng;
+				TargetAttributes = {
+					7D09D3D021086BE6000D5E29 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D09D3CC21086BE6000D5E29 /* Build configuration list for PBXProject "AnIntroductionToRayTracing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D09D3C821086BE6000D5E29;
+			productRefGroup = 7D09D3D221086BE6000D5E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D09D3D021086BE6000D5E29 /* AnIntroductionToRayTracing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D09D3CD21086BE6000D5E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEDA07421086CB400D38D09 /* sweeping_translational.cpp in Sources */,
+				7DEDA07721086CB400D38D09 /* quadratic_hyperbolic_paraboloid.cpp in Sources */,
+				7DEDA06F21086CB400D38D09 /* quadratic_paraboloid.cpp in Sources */,
+				7DEDA09021086CB400D38D09 /* triangle.cpp in Sources */,
+				7DEDA08921086CB400D38D09 /* csgTree.cpp in Sources */,
+				7DEDA06B21086CB400D38D09 /* TreeType.cpp in Sources */,
+				7DEDA07A21086CB400D38D09 /* camera.cpp in Sources */,
+				7DEDA07121086CB400D38D09 /* superquadratic.cpp in Sources */,
+				7D09D3D521086BE6000D5E29 /* main.cpp in Sources */,
+				7DEDA08721086CB400D38D09 /* tori.cpp in Sources */,
+				7DEDA07221086CB400D38D09 /* lambertian.cpp in Sources */,
+				7DEDA08021086CB400D38D09 /* test_base.cpp in Sources */,
+				7DEDA07B21086CB400D38D09 /* tori_part.cpp in Sources */,
+				7DEDA06D21086CB400D38D09 /* superellipsoid.cpp in Sources */,
+				7DEDA07521086CB400D38D09 /* elliptic_plane.cpp in Sources */,
+				7DEDA08E21086CB400D38D09 /* tori_part_all.cpp in Sources */,
+				7DEDA06C21086CB400D38D09 /* quadratic_cylinder_all.cpp in Sources */,
+				7DEDA08A21086CB400D38D09 /* dielectric.cpp in Sources */,
+				7DEDA07E21086CB400D38D09 /* test_extend2.cpp in Sources */,
+				7DEDA08321086CB400D38D09 /* polygon.cpp in Sources */,
+				7DEDA07C21086CB400D38D09 /* supertoroid.cpp in Sources */,
+				7DEDA08521086CB400D38D09 /* blobs.cpp in Sources */,
+				7DEDA08F21086CB400D38D09 /* box.cpp in Sources */,
+				7DEDA07F21086CB400D38D09 /* box2.cpp in Sources */,
+				7DEDA07021086CB400D38D09 /* superhyperboloid.cpp in Sources */,
+				7DEDA07921086CB400D38D09 /* ray.cpp in Sources */,
+				7DEDA08821086CB400D38D09 /* hitable_list.cpp in Sources */,
+				7DEDA08D21086CB400D38D09 /* sweeping_sphere.cpp in Sources */,
+				7DEDA08121086CB400D38D09 /* rain.cpp in Sources */,
+				7DEDA09221086CB400D38D09 /* vec2.cpp in Sources */,
+				7DEDA07821086CB400D38D09 /* test1.cpp in Sources */,
+				7DEDA08421086CB400D38D09 /* hitable.cpp in Sources */,
+				7DEDA06A21086CB400D38D09 /* test_extend1.cpp in Sources */,
+				7DEDA08621086CB400D38D09 /* material.cpp in Sources */,
+				7DEDA07621086CB400D38D09 /* metal.cpp in Sources */,
+				7DEDA09121086CB400D38D09 /* quadratic.cpp in Sources */,
+				7DEDA08C21086CB400D38D09 /* sphere.cpp in Sources */,
+				7DEDA07D21086CB400D38D09 /* sweeping_rotational.cpp in Sources */,
+				7DEDA07321086CB400D38D09 /* vec3.cpp in Sources */,
+				7DEDA08B21086CB400D38D09 /* quadratic_ellipsoid.cpp in Sources */,
+				7DEDA06E21086CB400D38D09 /* quartic_blend_cylinder.cpp in Sources */,
+				7DEDA08221086CB400D38D09 /* parametric_surface.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D09D3D621086BE6000D5E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D09D3D721086BE6000D5E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D09D3D921086BE6000D5E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D09D3DA21086BE6000D5E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D09D3CC21086BE6000D5E29 /* Build configuration list for PBXProject "AnIntroductionToRayTracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09D3D621086BE6000D5E29 /* Debug */,
+				7D09D3D721086BE6000D5E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D09D3D821086BE6000D5E29 /* Build configuration list for PBXNativeTarget "AnIntroductionToRayTracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09D3D921086BE6000D5E29 /* Debug */,
+				7D09D3DA21086BE6000D5E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D09D3C921086BE6000D5E29 /* Project object */;
+}
