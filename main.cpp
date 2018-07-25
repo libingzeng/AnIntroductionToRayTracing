@@ -1,4 +1,4 @@
-#define testNumber 46
+#define testNumber 16
 /*
 1: output the first image
 2: test "int &ri£¬int& ri£¬int *&pri"
@@ -1077,7 +1077,7 @@
     hitable *random_scene_my() {
         int n = 500;
         hitable **list = new hitable *[n+1];
-        list[0] = new sphere(vec3(0,-1000,0), 1000, new lambertian(vec3(0.5, 0.5, 0.5)));
+        list[0] = new sphere(vec3(0,-1000,0), 1000, new lambertian(vec3(0.5, 0.5, 0.5)), 0, 0);
         int i = 1;
         for (int a = -11; a < 11; a++) {
             for (int b = -11; b < 11; b++) {
@@ -1088,37 +1088,37 @@
                         list[i++] = new sphere(center, 0.2,
                                                new lambertian(vec3((rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)),
                                                                    (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)),
-                                                                   (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)))));
+                                                                   (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)))), 0, 0);
                     }
                     else if (choose_mat < 0.95) {
                         list[i++] = new sphere(center, 0.2,
                                                new metal(vec3(0.5*(1+(rand()%(100)/(float)(100))),
                                                               0.5*(1+(rand()%(100)/(float)(100))),
                                                               0.5*(1+(rand()%(100)/(float)(100)))),
-                                                         0.5*(1+(rand()%(100)/(float)(100)))));
+                                                         0.5*(1+(rand()%(100)/(float)(100)))), 0, 0);
                     }
                     else {
                         list[i++] = new sphere(center, 0.2,
-                                               new dielectric(1.5));
+                                               new dielectric(1.5), 0, 0);
                     }
                 }
             }
         }
 
-        list[i++] = new sphere(vec3(-6, 2, -6), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
-        list[i++] = new sphere(vec3(6, 2, -6), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
+        list[i++] = new sphere(vec3(-6, 2, -6), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
+        list[i++] = new sphere(vec3(6, 2, -6), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
 
-        list[i++] = new sphere(vec3(0, 2, -7), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
+        list[i++] = new sphere(vec3(0, 2, -7), 2.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
 
-        list[i++] = new sphere(vec3(-2, 1, -4), 1.0, new dielectric(1.5));
-        list[i++] = new sphere(vec3(2, 1, -4), 1.0, new dielectric(1.5));
-        list[i++] = new sphere(vec3(0, 1, 0), 1.0, new dielectric(1.5));
+        list[i++] = new sphere(vec3(-2, 1, -4), 1.0, new dielectric(1.5), 0, 0);
+        list[i++] = new sphere(vec3(2, 1, -4), 1.0, new dielectric(1.5), 0, 0);
+        list[i++] = new sphere(vec3(0, 1, 0), 1.0, new dielectric(1.5), 0, 0);
 
-        list[i++] = new sphere(vec3(-4, 1, -2), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)));
-        list[i++] = new sphere(vec3(4, 1, -2), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)));
+        list[i++] = new sphere(vec3(-4, 1, -2), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)), 0, 0);
+        list[i++] = new sphere(vec3(4, 1, -2), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)), 0, 0);
 
-        list[i++] = new sphere(vec3(-6, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
-        list[i++] = new sphere(vec3(6, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
+        list[i++] = new sphere(vec3(-6, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
+        list[i++] = new sphere(vec3(6, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
 /* */
         return new hitable_list(list, i);
     }
@@ -1126,7 +1126,7 @@
     hitable *random_scene() {
         int n = 500;
         hitable **list = new hitable *[n+1];
-        list[0] = new sphere(vec3(0,-1000,0), 1000, new lambertian(vec3(0.5, 0.5, 0.5)));
+        list[0] = new sphere(vec3(0,-1000,0), 1000, new lambertian(vec3(0.5, 0.5, 0.5)), 0, 0);
         int i = 1;
         for (int a = -11; a < 11; a++) {
             for (int b = -11; b < 11; b++) {
@@ -1138,26 +1138,26 @@
                         list[i++] = new sphere(center, 0.2,
                                                new lambertian(vec3((rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)),
                                                                    (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)),
-                                                                   (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)))));
+                                                                   (rand()%(100)/(float)(100))*(rand()%(100)/(float)(100)))), 0, 0);
                     }
                     else if (choose_mat < 0.95) {
                         list[i++] = new sphere(center, 0.2,
                                                new metal(vec3(0.5*(1+(rand()%(100)/(float)(100))),
                                                               0.5*(1+(rand()%(100)/(float)(100))),
                                                               0.5*(1+(rand()%(100)/(float)(100)))),
-                                                         0.5*(1+(rand()%(100)/(float)(100)))));
+                                                         0.5*(1+(rand()%(100)/(float)(100)))), 0, 0);
                     }
                     else {
                         list[i++] = new sphere(center, 0.2,
-                                               new dielectric(1.5));
+                                               new dielectric(1.5), 0, 0);
                     }
                 }
             }
         }
 
-        list[i++] = new sphere(vec3(0, 1, 0), 1.0, new dielectric(1.5));
-        list[i++] = new sphere(vec3(-4, 1, 0), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)));
-        list[i++] = new sphere(vec3(4, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0));
+        list[i++] = new sphere(vec3(0, 1, 0), 1.0, new dielectric(1.5), 0, 0);
+        list[i++] = new sphere(vec3(-4, 1, 0), 1.0, new lambertian(vec3(0.4, 0.2, 0.1)), 0, 0);
+        list[i++] = new sphere(vec3(4, 1, 0), 1.0, new metal(vec3(0.7, 0.6, 0.5), 0.0), 0, 0);
 
         return new hitable_list(list, i);
     }
@@ -1182,10 +1182,11 @@
         }
     }
 
+vec3 lookfrom;
 
     int main(){
-        int nx = 200;
-        int ny = 100;
+        int nx = 800;
+        int ny = 600;
         int ns = 100;
 
         ofstream outfile( "/Users/libingzeng/CG/AnIntroductionToRayTracing/results/random_scene.txt", ios_base::out);
@@ -1203,7 +1204,7 @@
 */
         hitable *world = random_scene();
 
-        vec3 lookfrom(13,2,3);
+        lookfrom = vec3(13,2,3);
         vec3 lookat(0,0,0);
         float dist_to_focus = (lookfrom - lookat).length();
         float aperture = 0.0;
