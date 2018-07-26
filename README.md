@@ -56,3 +56,6 @@ We can set testNumber to run the corresponding test case and produce image.
 46: CSG
 */
 
+
+If you can read simple Chinese, you could find more details in my blog: https://blog.csdn.net/libing_zeng/article/details/72603619
+If you have any question to share with me, you can reach me by email: libingzeng123@gmail.com
