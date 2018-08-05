@@ -1,5 +1,5 @@
 # AnIntroductionToRayTracing
-This render is based on the framework of Peter Shirley's ray tracing in one weekend and is extended with tracing almost all of the surfaces mentioned in the book, An Introduction to Ray Tracing. The extended surfaces are all NON-TRIANGULATE, which include box, sphere, polygon, quadric surfaces, tori, blending and joining surface, superellipsoid, superhyperboloid, supertoroid, blobs, tear drop, bicubic Bezier patches, bicubic B-spline patches, translational sweeping surface, cone sweeping surface, rotational sweeping surface, sphere sweeping surface, and CSG surfaces.
+This render is based on the framework of Peter Shirley's ray tracing in one weekend and is extended with tracing almost all of the surfaces mentioned in the book, An Introduction to Ray Tracing. The extended surfaces are all `NON-TRIANGULATE`, which include box, sphere, polygon, quadric surfaces, tori, blending and joining surface, superellipsoid, superhyperboloid, supertoroid, blobs, tear drop, bicubic Bezier patches, bicubic B-spline patches, translational sweeping surface, cone sweeping surface, rotational sweeping surface, sphere sweeping surface, and CSG surfaces.
 Some of the main resultant images were uploaded in the path: results/pictures.
 
 
@@ -59,3 +59,21 @@ We can set testNumber to run the corresponding test case and produce image.
 
 If you can read simple Chinese, you could find more details in my blog: https://blog.csdn.net/libing_zeng/article/details/72603619
 If you have any question to share with me, you can reach me by email: libingzeng123@gmail.com
+
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/1.1-positionable%20%20camera.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/1.2-final%2Cimage_100%2Csamples%2Cper%2Cpixel.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.1%20Box%2C%20sphere%2C%20polygon%2C%20quadric%20surfaces.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.2%20Tori%2C%20blending%20and%20joining%20surface.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.3.1%20superellipsoid.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.3.2%20superhyperboloid.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.3.3%20supertoroid.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.4%20Blobs.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.5%20Tear%20drops.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.6%20bicubic%20Bezier%20patches%2C%20bicubic%20B-spline%20patches.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.7%262.8%20Sweeping%20surface.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.9%20CSG%20surfaces.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages1-boxes_spheres_plygons.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages2-boxes.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages3-tori_parts%2Cof%2Ctoris.jpghttps://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages4-quadric_surfaces.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages4-quadric_surfaces.jpg)
+
