@@ -74,6 +74,6 @@ If you have any question to share with me, you can reach me by email: libingzeng
 ![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/2.9%20CSG%20surfaces.jpg)
 ![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages1-boxes_spheres_plygons.jpg)
 ![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages2-boxes.jpg)
-![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages3-tori_parts%2Cof%2Ctoris.jpghttps://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages4-quadric_surfaces.jpg)
+![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages3-tori_parts%2Cof%2Ctoris.jpg)
 ![](https://github.com/libingzeng/AnIntroductionToRayTracing/blob/master/results/pictures/big%2Cimages4-quadric_surfaces.jpg)
 
